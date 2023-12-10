@@ -112,7 +112,7 @@ class Human:
         if self.job is None:
             self.get_job()
             print(f"I don't have a job, I'm going to get a job {self.job.job} with salary {self.job.salary}")
-            self.
+            self.days_indexes(day)
 
 class Auto:
     def __init__(self,brand_list):
